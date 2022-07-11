@@ -1,6 +1,9 @@
 """A minimal bot test for bug finding and fixing"""
 import discord.ext.test as dpytest
 import pytest
+import logging
+# setup simple logging
+logger = logging.getLogger("minimal_tests")
 
 
 @pytest.mark.asyncio
